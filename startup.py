@@ -99,7 +99,7 @@ class SubstanceDesignerLauncher(SoftwareLauncher):
         ],
         "win32": [
             "$SUBSTANCEDESIGNER_BIN",
-            "C:/Program Files/Allegorithmic/Substance Designer/Substance Designer.exe",
+            "C:/Program Files/Adobe/Adobe Substance 3D Designer/Adobe Substance 3D Designer.exe",
         ],
         "linux2": [
             "$SUBSTANCEDESIGNER_BIN",
