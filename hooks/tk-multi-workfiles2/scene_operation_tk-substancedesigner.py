@@ -22,7 +22,6 @@ HookClass = sgtk.get_hook_baseclass()
 
 import sd
 
-raise ValueError("Raphe! --------------------- ")
 
 class GraphTypeDialog(QtGui.QDialog):
     def __init__(self, parent=None):
