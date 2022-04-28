@@ -14,6 +14,7 @@ import contextlib
 import traceback
 
 import sgtk
+from sgtk import TankError
 from sgtk.util.filesystem import ensure_folder_exists
 from sgtk.util.version import is_version_older
 

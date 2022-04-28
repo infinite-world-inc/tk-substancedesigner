@@ -149,12 +149,16 @@ class SceneOperation(HookClass):
             if current_graph:
                 pck = current_graph.getPackage()
                 pm.savePackage(pck)
+            else:
+                raise ValueError("No graph to save!")
 
         elif operation == "save_as":
             current_graph = uiMgr.getCurrentGraph()
             if current_graph:
                 pck = current_graph.getPackage()
                 pm.savePackageAs(pck, file_path)
+            else:
+                raise ValueError("No graph to save!")
 
         elif operation == "reset":
             for p in pm.getPackages():
